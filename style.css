@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 body {
     height: 100vh;
     width: 100vw;
@@ -16,7 +21,7 @@ header {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 0 40px;
+    padding: 0 40px; 
 }
 
 header i {
@@ -44,3 +49,56 @@ header .menu .menu-list {
 }
 
 /* styling main content */
+main {
+    height: calc( 100% - 60px );
+    width: 100%;   
+}
+
+#home {
+    padding: 80px 10%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#home h2 {
+    text-align: center;
+    font-size: 50px;
+}
+
+#home .content {
+    display: flex;
+    padding: 40px;
+}
+
+.content img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+.home-paragraph span {
+    font-size: 50px;
+    text-align: center; 
+}
+
+.paragraph-title {
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+#home #btn-more {
+    margin-top: 20px;
+    height: 50px;
+    width: 20%;
+    font-size: 20px;
+    background-color: rgb(26, 26, 26);
+    border-radius: 10px;
+    color: #fff;
+    border: none;
+}
+
+
+/* styling section resume */
