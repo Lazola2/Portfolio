@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(245,246,247);
+}
+
+header {
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 40px;
+}
+
+header i {
+    font-size: 30px;
+    padding: 0;
+    height: 60px;
+}
+
+header .menu .menu-list {
+    display: flex;
+    height: 60px;
+    position: initial;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.menu .menu-list li {
+    list-style: none;
+    margin:0 2vw;
+}
+
+.menu-list li a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* styling main content */
