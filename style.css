@@ -130,6 +130,8 @@ main {
     width: 70%;   
 }
 
+#resume #resume-holder::before
+
 #resume-holder #lists {
     width: 100%;
     border: 1px solid red;
@@ -139,6 +141,7 @@ main {
 #lists .item {
     width: 50%;
     border: 1px solid green;
+    border-radius: 10px;
     list-style: none;
 }
 
