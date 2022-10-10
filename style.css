@@ -133,9 +133,12 @@ main {
 #resume #resume-holder::before
 
 #resume-holder #lists {
+    content:'';
     width: 100%;
     border: 1px solid red;
     height: 100%;
+    width: 3px;
+    position: absolute;
 }
 
 #lists .item {
