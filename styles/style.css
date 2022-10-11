@@ -21,6 +21,7 @@ body {
     flex-direction: column;
     box-sizing: border-box;
     overflow-y: hidden;
+    scroll-margin: 20vh;
 }
 
 header {
@@ -129,8 +130,9 @@ main {
 
 /* styling section resume */
 #resume {
+    scroll-margin-top: 9vh;
     height: 100%;
-    margin-top: 9vh;
+    /* margin-top: 9vh; */
     width: 100%;
     padding: 20px 40px;
     display: flex;
@@ -200,7 +202,8 @@ main {
     right: 3%;
 }
 
-.item:nth-child(even)::before, .item:nth-child(odd)::before  {
+.item:nth-child(even)::before, 
+.item:nth-child(odd)::before  {
     content: '';
     width: 20px;
     height: 20px;
@@ -237,12 +240,14 @@ main {
 
 /* Projects section */
 #projects {
+    scroll-margin-top: 9vh;
     height: 91vh;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    border: 3px solid orange;
 }
 
 /* Contact section */
