@@ -64,6 +64,12 @@ header .menu .menu-list {
 .menu .menu-list li {
     list-style: none;
     margin:0 2vw;
+    width: 30%;
+}
+
+.menu .menu-list li:hover {
+    font-weight: 600;
+   
 }
 
 .menu-list li a {
@@ -247,7 +253,6 @@ main {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    border: 3px solid orange;
 }
 
 /* Contact section */
@@ -255,7 +260,67 @@ main {
     height: 91vh;
     width: 100%;
     display: flex;
+    justify-content: flex-start;
+}
+
+#contact svg {
+    top: 0;
+    height: 100%;
+    width: 50%;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    height: 100%;
+    padding: 0 5%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    gap: 20px;
+}
+
+form h3 {
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+form input {
+    height: 40px;
+    width: 55%;
+    border: 2px solid rgb( 50, 60, 70);
+    border-radius: 5px;
+    outline: none;
+    padding: 0 15px;
+}
+
+form button {
+    width: 55%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    background: linear-gradient( rgb(50, 60, 70), var(--theme-color) );
+}
+
+form button:active {
+    background: linear-gradient(  var(--theme-color), rgb(50, 60, 70) );
+}
+
+textarea {
+    resize: none;
+    border: 2px solid rgb( 50, 60, 70);
+    padding: 15px;
+    box-sizing: border-box;
+    width: 55%;
+    border-radius: 5px;
 }
