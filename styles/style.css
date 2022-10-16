@@ -69,7 +69,6 @@ header .menu .menu-list {
 
 .menu .menu-list li:hover {
     font-weight: 600;
-   
 }
 
 .menu-list li a {
@@ -257,6 +256,7 @@ main {
 
 /* Contact section */
 #contact {
+    scroll-margin: 9vh;
     height: 91vh;
     width: 100%;
     display: flex;
